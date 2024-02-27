@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import State from './hooks/State/State'
+import StateHook from './hooks/State/StateHook'
+import EffectHook from './hooks/Effect/EffectHook'
 
 function App() {
 
   return (
     <>
-      <State />
+      {/*<StateHook />*/}
+      <EffectHook/>
     </>
   )
 }

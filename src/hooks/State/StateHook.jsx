@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function State() {
+export default function StateHook() {
     const [value, setValue] = useState(0) 
     const handleClick = () => setValue(prev => prev+1 )
   return (
@@ -10,5 +10,3 @@ function State() {
     </div>
   )
 }
-
-export default State
